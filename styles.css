@@ -63,11 +63,11 @@ nav span {
       display:flex;
   }
 
-  div footer {
+  footer {
+    margin-top:18px;
     padding-top:10px;
     padding-bottom:10px;
     background-color:#333;
-
     text-align:center;
     color: white;
     font-family: Arial;
