@@ -1,9 +1,6 @@
 nav {
-    display:block;
     background-color: #333;
     font-family: Arial;
-    color: #d3c2c2;
-    overflow: hidden;    
 }
 
 nav span {
@@ -77,3 +74,12 @@ nav span {
       margin-top:18px;
       margin-bottom:9px;
   }
+
+  @media only screen and (max-width: 768px) {
+  .container {
+    display:flex;
+    flex-direction: column-reverse;
+    flex-basis: 100%;
+    flex: 1;
+    }
+}
